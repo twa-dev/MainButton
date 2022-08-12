@@ -1,0 +1,25 @@
+{
+  "name": "twa.main_button",
+  "version": "0.0.1",
+  "main": "dist/index.js",
+  "repository": "git@github.com:ArthurStam/MainButton.git",
+  "author": "Artur Stambultsian <bumbledos@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/react": "^18.0.17",
+    "@types/react-dom": "^18.0.6",
+    "@typescript-eslint/eslint-plugin": "^5.33.0",
+    "@typescript-eslint/parser": "^5.33.0",
+    "eslint": "^8.21.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-react": "^7.30.1",
+    "prettier": "^2.7.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "typescript": "^4.7.4"
+  },
+  "scripts": {
+    "test": "eslint --ext .ts,.tsx ./",
+    "build": "tsc --outDir dist/"
+  }
+}
