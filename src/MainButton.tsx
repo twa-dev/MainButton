@@ -25,7 +25,6 @@ export const MainButton: FC<MainButtonProps> = ({
   progress,
 }) => {
   useEffect(() => {
-    mainButton.show();
     return () => {
       mainButton.hide();
       mainButton.enable();
@@ -58,7 +57,10 @@ export const MainButton: FC<MainButtonProps> = ({
   }, [color, textColor]);
 
   useEffect(() => {
-    mainButton.setText(text);
+    if (text) {
+      mainButton.setText(text);
+      !mainButton.isVisible && mainButton.show();
+    }
   }, [text]);
 
   useEffect(() => {
