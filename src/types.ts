@@ -35,8 +35,6 @@ export interface WebApp {
   MainButton: MainButton;
 }
 
-export interface TelegramWindow extends Window {
-  Telegram: {
-    WebApp: WebApp;
-  };
+export interface Telegram {
+  WebApp: WebApp;
 }

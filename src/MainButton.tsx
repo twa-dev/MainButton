@@ -1,7 +1,7 @@
 import { FC, useEffect } from "react";
-import { TelegramWindow } from "./types";
+import { Telegram } from "./types";
 
-export interface MainButtonProps {
+interface MainButtonProps {
   disabled?: boolean;
   progress?: boolean;
   color?: string;
@@ -10,7 +10,7 @@ export interface MainButtonProps {
   text: string;
 }
 
-const telegramWindow = window as unknown as TelegramWindow;
+const telegramWindow = window as unknown as Window & { Telegram: Telegram };
 
 const mainButton = telegramWindow.Telegram.WebApp.MainButton;
 const { button_color, button_text_color } =
