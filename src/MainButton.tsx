@@ -60,6 +60,8 @@ export const MainButton: FC<MainButtonProps> = ({
     if (text) {
       mainButton.setText(text);
       !mainButton.isVisible && mainButton.show();
+    } else if (mainButton.isVisible) {
+      mainButton.hide();
     }
   }, [text]);
 
