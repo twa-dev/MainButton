@@ -1,6 +1,10 @@
 ## MainButton
 React component for [Telegram Web Apps (TWA)](https://core.telegram.org/bots/webapps).
 
+```
+npm i twa.mainbutton
+```
+
 ### Motivation
 TWA SDK contains interface to control [MainButton](https://core.telegram.org/bots/webapps#mainbutton). It's written in imperative way:
 
