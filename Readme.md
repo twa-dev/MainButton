@@ -1,5 +1,5 @@
 ## MainButton
-React component for [Telegram Web Apps (TWA)](https://core.telegram.org/bots/webapps).
+React component for [Telegram Web Apps (TWA)](https://core.telegram.org/bots/webapps) Main Button.
 
 ```
 npm i @twa-dev/mainbutton
