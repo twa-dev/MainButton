@@ -29,6 +29,8 @@ import MainButton from 'twa.mainbutton';
 ### Demo
 [@MainButtonDemoBot](https://t.me/MainButtonDemoBot)
 
+[Codesandbox](https://codesandbox.io/s/main-button-demo-732l5z)
+
 ### Props
 Naming is pretty straight forward and corresponds SDK props and methods:
 - `text`
