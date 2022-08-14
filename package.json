@@ -8,7 +8,7 @@
     "telegram bot",
     "bot"
   ],
-  "version": "0.0.7",
+  "version": "0.0.8",
   "main": "dist/index.js",
   "repository": "https://github.com/twa-dev/MainButton",
   "author": "Artur Stambultsian <bumbledos@gmail.com>",
