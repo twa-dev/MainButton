@@ -1,5 +1,5 @@
 import { FC, useEffect } from "react";
-import { Telegram } from "./types";
+import { Telegram } from "@twa-dev/types";
 
 interface MainButtonProps {
   disabled?: boolean;
