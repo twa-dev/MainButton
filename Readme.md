@@ -2,7 +2,7 @@
 React component for [Telegram Web Apps (TWA)](https://core.telegram.org/bots/webapps).
 
 ```
-npm i twa.mainbutton
+npm i @twa-dev/mainbutton
 ```
 
 ### Motivation
@@ -21,7 +21,7 @@ It's not the best way to write code, especially if you use libraries like React.
 This package exports React component that wraps TWA MainButton SDK:
 
 ```js
-import MainButton from 'twa.mainbutton';
+import MainButton from '@twa-dev/mainbutton';
 
 <MainButton text="Submit" onClick={() => alert('submitted')} />
 ```
