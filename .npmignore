@@ -2,6 +2,7 @@
 node_modules/
 tsconfig.json
 .eslintrc
+.eslintignore
 .prettierrc
 .gitignore
 *.log
