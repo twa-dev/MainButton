@@ -1,6 +1,14 @@
 {
   "name": "@twa-dev/mainbutton",
-  "version": "0.0.5",
+  "description": "React component for Telegram Web Apps (TWA) Main Button",
+  "keywords": [
+    "telegram",
+    "react",
+    "telegram web apps",
+    "telegram bot",
+    "bot"
+  ],
+  "version": "0.0.6",
   "main": "dist/index.js",
   "repository": "https://github.com/twa-dev/MainButton",
   "author": "Artur Stambultsian <bumbledos@gmail.com>",
