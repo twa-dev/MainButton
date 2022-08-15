@@ -8,7 +8,7 @@ npm i @twa-dev/mainbutton
 ```
 
 ### Motivation
-TWA SDK contains interface to control [MainButton](https://core.telegram.org/bots/webapps#mainbutton). It's written in imperative way:
+TWA SDK contains an interface that controls [MainButton](https://core.telegram.org/bots/webapps#mainbutton). It's written in imperative way:
 
 ```js
 const MainButton = window.Telegram.WebApp.MainButton;
