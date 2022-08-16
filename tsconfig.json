@@ -3,8 +3,6 @@
     "sourceMap": true,
     "target": "es5",
     "lib": ["dom", "dom.iterable", "esnext"],
-    "esModuleInterop": true,
-    "allowSyntheticDefaultImports": true,
     "strict": true,
     "module": "esnext",
     "moduleResolution": "Node",
@@ -12,5 +10,5 @@
     "jsx": "react-jsx",
     "declaration": true
   },
-  "files": ["src/MainButton.tsx", "src/index.ts"]
+  "files": ["src"]
 }
