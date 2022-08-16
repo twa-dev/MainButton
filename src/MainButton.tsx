@@ -1,5 +1,5 @@
 import { FC, useEffect } from "react";
-import { Telegram } from "@twa-dev/types";
+import WebApp from "@twa-dev/sdk";
 
 interface MainButtonProps {
   disabled?: boolean;
@@ -10,11 +10,8 @@ interface MainButtonProps {
   text: string;
 }
 
-const telegramWindow = window as unknown as Window & { Telegram: Telegram };
-
-const mainButton = telegramWindow.Telegram.WebApp.MainButton;
-const { button_color, button_text_color } =
-  telegramWindow.Telegram.WebApp.themeParams;
+const mainButton = WebApp.MainButton;
+const { button_color, button_text_color } = WebApp.themeParams;
 
 export const MainButton: FC<MainButtonProps> = ({
   disabled,
@@ -67,9 +64,9 @@ export const MainButton: FC<MainButtonProps> = ({
 
   useEffect(() => {
     if (onClick) {
-      telegramWindow.Telegram.WebApp.MainButton.onClick(onClick);
+      WebApp.MainButton.onClick(onClick);
       return () => {
-        telegramWindow.Telegram.WebApp.MainButton.offClick(onClick);
+        WebApp.MainButton.offClick(onClick);
       };
     }
   }, [onClick]);

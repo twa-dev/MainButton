@@ -30,7 +30,7 @@
     "build": "tsc --outDir dist/"
   },
   "dependencies": {
-    "@twa-dev/types": "^6.2.0"
+    "@twa-dev/sdk": "^0.0.1"
   },
   "peerDependencies": {
     "react": ">=16.0.0"

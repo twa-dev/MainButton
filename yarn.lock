@@ -57,10 +57,17 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
-"@twa-dev/types@^6.2.0":
-  version "6.2.0"
-  resolved "https://registry.yarnpkg.com/@twa-dev/types/-/types-6.2.0.tgz#46136f9d4795a60b31342c1dd4c04ae7ed67e5ed"
-  integrity sha512-kPan91iNDmBzRfGAzNCrBaWW5zPa8DGbvKRa9ewuEgylq66BASSyuBDHRIh7Uh/8qu10h65fgzKjFzioqAnEMA==
+"@twa-dev/sdk@^0.0.1":
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/@twa-dev/sdk/-/sdk-0.0.1.tgz#12de691c1886b3a28de86b026e194de4645024f4"
+  integrity sha512-Aa0Yt/3dZszLsPGSLPp5iV2jf0xNezNThVryksm7tug39K5/mpM2oRlDOEXxP6FKHGMbZuhWwDnuOKsYsb4/cg==
+  dependencies:
+    "@twa-dev/types" "^6.2.2"
+
+"@twa-dev/types@^6.2.2":
+  version "6.2.2"
+  resolved "https://registry.yarnpkg.com/@twa-dev/types/-/types-6.2.2.tgz#f62bc26d7379fdf82805b005b9bc77fff7c940d9"
+  integrity sha512-J+a4w/KzOPwuxHB/f9vJYMtuW1pqkFbRrUIi0wVj3HGoDJLA1ed6bSKOuJE+TrfLJ0ft1Qthy7UTVfupNeCmCQ==
 
 "@types/json-schema@^7.0.9":
   version "7.0.11"
