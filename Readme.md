@@ -1,3 +1,7 @@
+> **DEPRECATED**
+> 
+> `MainButton` moved to [@twa-dev/sdk](https://github.com/twa-dev/sdk). This repo and corresponding npm-package are deprecated.
+
 ## MainButton
 [![npm version](https://img.shields.io/npm/v/@twa-dev/mainbutton)](https://www.npmjs.com/package/@twa-dev/mainbutton)
 
